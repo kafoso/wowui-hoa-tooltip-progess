@@ -1,0 +1,7 @@
+## Interface: 80000
+## Version: 0.0.1
+## Title: Heart of Azeroth Tooltip
+## Author: Kasper Søfren (soefritz@gmail.com)
+## Notes: Show progress in tooltip of the Heart of Azeroth item.
+main.lua
+# Largely based on Adamod: http://www.wowinterface.com/downloads/info24741-Adamod.html
