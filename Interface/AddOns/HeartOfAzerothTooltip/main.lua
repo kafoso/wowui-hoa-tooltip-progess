@@ -25,6 +25,8 @@ function HeartOfAzerothTooltip_OnTooltipSetItem(tooltip)
 	end
 end
 
-if (UnitLevel("player") == 120) then
+local playerUnitLevel = UnitLevel("player");
+
+if (GetAccountExpansionLevel() >= 7 and playerUnitLevel >= 110 and playerUnitLevel <= 120) then
 	GameTooltip:HookScript("OnTooltipSetItem", HeartOfAzerothTooltip_OnTooltipSetItem)
 end
