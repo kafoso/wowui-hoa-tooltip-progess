@@ -1,6 +1,3 @@
-local INVENTORY_SLOT_ID_NECK = 2
-local HEART_OF_AZEROTH_ITEM_ID = 158075
-
 function HeartOfAzerothTooltip_NumberFormat(number, decimalCount)
 	local multiplier = 10^(decimalCount or 0)
 	return math.floor(number * multiplier + 0.5) / multiplier
